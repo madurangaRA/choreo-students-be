@@ -19,6 +19,7 @@ dependencies {
 	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0'
 	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
 	implementation 'mysql:mysql-connector-java:8.0.27'
+	implementation 'org.springframework:spring-web:6.0.0' 
 	testImplementation('org.springframework.boot:spring-boot-starter-test:2.6.6') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
